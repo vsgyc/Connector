@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header file">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="resource file">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source file">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header file\Dialg">
+      <UniqueIdentifier>{590cdf83-2844-4503-adef-727bce586a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header file\Other">
+      <UniqueIdentifier>{cbc82f35-b1e4-4e87-8452-5b60aba45c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source file\Other">
+      <UniqueIdentifier>{ba7bbdec-0c03-4b67-8a72-43223ef5bb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source file\Dialg">
+      <UniqueIdentifier>{e5d4209f-d338-42d8-acb3-16c23d02b41f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConnectorDlg.h">
+      <Filter>header file\Dialg</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>header file\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Connector.h">
+      <Filter>header file\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>header file\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>header file\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>header file\Other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>source file\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Connector.cpp">
+      <Filter>source file\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectorDlg.cpp">
+      <Filter>source file\Dialg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Connector.rc">
+      <Filter>resource file</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Connector.rc2">
+      <Filter>resource file</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Connector.ico">
+      <Filter>resource file</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
